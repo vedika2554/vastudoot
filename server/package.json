@@ -1,0 +1,47 @@
+{
+  "name": "vastudoot-construction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "vasudoot",
+    "vastushatra",
+    "associate and construction",
+    "presentation plan",
+    "vastu plan",
+    "working plan",
+    "3d elevation",
+    "estimate",
+    "house ,commericial and industrial design",
+    "rcc design",
+    "building permission",
+    "supervision",
+    "layout plan",
+    "electric plan",
+    "furniture plan",
+    "plubing plan",
+    "pop plan",
+    "landscape plan",
+    "face line plan",
+    "structural plan",
+    "fabrication plan(window door design)",
+    "aluminium section(window and door plan)",
+    "building colour plan",
+    "steel and glass railing design",
+    "flooring plan and kitchen cubboard plan",
+    "door and frame measurment plan",
+    "excavation levelling plan"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
