@@ -1,0 +1,189 @@
+
+  
+  /* Container */
+  .eccovd {
+    max-width: 1900px;
+    margin: 0 auto;
+   overflow: hidden;
+    padding: 30px;
+    border-radius: 15px;
+    
+  }
+  
+  
+  /* Header */
+  .ehovd {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .ehovd h1 {
+    font-size: 2.8em;
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .ehovd p {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  /* Card Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+   
+  }
+  
+  
+ 
+  
+  
+  .eccovd {
+    width: 90%;
+    overflow: hidden; /* Hide overflow so content is clipped */
+    position: relative;
+    padding: 20px 0; /* Padding to provide space around the cards */
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 20px;
+    width: 400%; /* Since we have 3 cards, 100% * 3 = 300% */
+    animation: slide 12s linear infinite; /* 12 seconds for the full cycle */
+  }
+  
+  .eoc {
+    flex: 0 0 auto; /* Prevent shrinking or growing of the cards */
+    width: 400px; /* Fixed width for each card */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: transparent; /* Card background */
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+  }
+  
+  .eoc h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .eoc img {
+    width: 90%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .eoc p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.6;
+    font-weight: 0;
+  }
+  
+  /* Animation for sliding effect */
+  @keyframes slide {
+    0% {
+      transform: translateX(2%); /* Start from original position */
+    }
+    100% {
+      transform: translateX(-14.5%); /* Move to the second card */
+    }
+      
+    
+  }
+  .zun{
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .excel-img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: transparent;
+    margin-top: -10px;
+    border-radius: 10px;
+    padding: 2rem;
+   margin: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .ewps{
+    display: flex;
+    
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .excel-img{
+      width: 95%;
+      padding: 4vw;
+      height: 60vw;
+    }
+    .ewps{
+      flex-direction: column;
+      align-items: center;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .ehovd h1
+    {
+      font-size: 9vw;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .ehovd p{
+      font-size: 5.5vw;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .eoc{
+      width: 23%;
+      padding: 5px;
+    }
+    .eoc img{
+      width: 90%;
+      height: 45vw;
+    }
+    .eoc h2 {
+      font-size: 5.5vw;
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(5%); /* Start from original position */
+      }
+      100% {
+        transform: translateX(-100%); /* Move to the second card */
+      }
+    }
+      .card-grid{
+        animation: slide 30s linear infinite; 
+  }
+  .excel-section h2{
+    font-size: 9vw;
+  }
+  .zun{
+    text-align: justify;
+    font-size: 5.5vw;
+  }
+}

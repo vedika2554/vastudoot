@@ -1,0 +1,48 @@
+.material-card {
+  box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6); 
+  background-color: rgba(255, 245, 230,0.11);
+  border: 0.5px solid #4a2a00;
+  border-radius: 15px;
+  width: 300px;
+  margin-top: 90px;
+  text-align: center;
+  color: darkred;
+  font-weight: bolder;
+  font-size: 15px;
+  
+  }
+  
+  .material-card:hover {
+    transform: translateY(-5px);
+   
+  }
+  
+  .material-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    mix-blend-mode: darken;
+  }
+  .card-title.h5
+  {
+    color: darkorange;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+ .material-card{
+  margin-top: 5vw;
+  width: 95%;
+ }
+ .card-title.h5{
+  font-size: 5.5vw;
+ }
+ .cdt{
+  font-size: 4.5vw;
+ }
+  }

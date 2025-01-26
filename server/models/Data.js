@@ -1,8 +1,19 @@
 import { Schema, model } from "mongoose";
 const dataSchema = new Schema({
-    image: String,
-    design: String
+
+    image: {
+        type: String,
+        required: true
+    },
+
+    design: {
+
+        type: String,
+        
+        required: true
+    }
 });
+
 
 const Data = model('data', dataSchema)
 

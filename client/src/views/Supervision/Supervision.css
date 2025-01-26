@@ -1,0 +1,220 @@
+/* src/components/SupervisionPage.css */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .containerppp {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .page-header {
+    background: linear-gradient(45deg, #4d2600, orange, black);
+    background-size: 300% 300%;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    animation: gradientFlow 5s infinite ease-in-out;
+    overflow: hidden;
+  }
+  
+  .page-header h1 {
+    animation: textSlide 3s infinite alternate ease-in-out;
+  }
+  
+  .page-header::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #f4f4f4; /* Zig-zag color */
+    clip-path: polygon(0 100%, 10% 0, 20% 100%, 30% 0, 40% 100%, 50% 0, 60% 100%, 70% 0, 80% 100%, 90% 0, 100% 100%);
+    animation: zigzagGlow 3s infinite alternate ease-in-out, zigzagSlide 8s infinite linear;
+  }
+  
+  @keyframes gradientFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes textSlide {
+    0% {
+      transform: translateX(-20px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(20px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zigzagGlow {
+    0% {
+      background-color: #f4f4f4;
+      transform: scale(1);
+      box-shadow: 0 0 10px #f4f4f4;
+    }
+    100% {
+      background-color: #d4af37; /* Gold */
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #d4af37;
+    }
+  }
+  
+  @keyframes zigzagSlide {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(10%);
+    }
+  }
+  
+  
+  
+  .page-header h1 {
+    font-size: 3rem;
+    
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .page-header p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+  
+  /* Supervision Section */
+  .supervision-section {
+padding: 80px 40px;
+    border-radius: 12px;
+   
+  }
+  
+  .supervision-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4a2a00;
+  }
+  
+  .supervision-section p {
+    font-size: 20px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 50px;
+  }
+  
+  .supervision-details {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    text-align: left;
+  }
+  
+  /* Supervision Item */
+.supervision-item {
+  background-color: transparent;
+  padding: 8px; /* Reduced padding */
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6); /* Reduced shadow */
+ 
+  max-width: 450px; /* Set a maximum width for the card */
+  margin: 0 auto; /* Center the card */
+}
+
+/* Heading inside supervision-item */
+.supervision-item h3 {
+  font-size: 30px; /* Reduced font size */
+ 
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 12px;
+  color: darkred;
+}
+
+/* Paragraph text inside supervision-item */
+.supervision-item p {
+  font-size: 17px; /* Reduced font size */
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* Image inside supervision-item */
+.supervision-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 80%; /* Reduced image size */
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Supervision details grid layout */
+.supervision-details {
+  display: grid;
+  gap: 20px; /* Reduced gap between items */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Reduce column size */
+  text-align: left;
+}
+
+  
+  
+  
+  
+  /* Media Queries */
+  @media (min-width: 320px) and (max-width: 480px){
+    .supervision-section {
+      padding: 40px 20px;
+    }
+  
+    .supervision-details {
+      grid-template-columns: 1fr;
+    }
+  
+    .supervision-section h2 {
+      font-size: 9vw;
+    }
+    .page-header h1{
+      font-size: 9vw;
+    }
+    .supervision-item h3{
+      font-size: 8vw;
+    }
+    .supervision-item p{
+      font-size: 5vw;
+    }
+  }
+  

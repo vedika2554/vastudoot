@@ -1,0 +1,63 @@
+.lan{
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.tpl{
+  text-align: center;
+    color: #4a2a00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.hjkpt{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .prl {
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    background-color: rgba(255, 245, 230, 0.11);
+    border: 0.5px solid #4a2a00;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Adjust .lan to take full width on smaller screens */
+  .lan {
+    width: 85%;
+    height: auto;
+    margin-top: 10px; /* Reduce margin for better fit */
+  }
+
+  /* Adjust .tpl font size and margin for smaller screens */
+  .tpl {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  /* Adjust .hjkpt for smaller screen layout */
+  .hjkpt {
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 10px;
+  }
+
+  /* Make .prl width responsive for small screens */
+  .prl {
+    width: 85%;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,371 @@
+
+.mh{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    top: 40px;
+    width: 98%;
+}
+
+.fm{
+    
+    position: relative;
+    top: 60px;
+    padding-bottom: 60px;
+    color:#4d2600;
+    font-weight: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.hjk{
+    display: flex;
+   justify-content: space-evenly;
+  
+    
+}
+.pl{
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    background-color: rgba(255, 245, 230,0.11);
+    border: 0.5px solid #4a2a00;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 90px;
+    text-align: center;
+   
+}
+.tp{
+    text-align: center;
+    color:#4a2a00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 23px;
+}
+.otop{
+    text-align: center;
+    margin-top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    margin-bottom:-40px;
+}
+.plan{
+    width: 90%;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: darkorange;
+    text-align: center;
+    font-weight: bold;
+}
+.dein{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4a2a00;
+    text-align: center;
+    font-weight: bold;
+}
+.ttp{
+    text-align: center;
+    color:#4a2a00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 18px;
+}
+.cde{
+    text-align: justify;
+    margin-top: 90px;
+    color: darkorange;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.de{
+    text-align: justify;
+    margin-top: 20px;
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;   
+}
+.sd{
+    color: #4a2a00;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+.pds{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align:justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: darkorange;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+}
+.spim{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -60px;
+}
+.monh{
+    text-align: center;
+    margin-top: 60px;
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
+}
+.cmh{
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 50px;
+    background-color: darkorange;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+    
+@media (min-width: 320px) and (max-width: 480px) {
+  .mh {display: block;
+   
+  width:95%;
+  height: 99vw;
+    
+  }   
+    
+.pds{
+  font-size: 4.5vw;
+}
+    .fm {
+        top: 7vh;
+        padding-bottom: 40px;
+        margin-bottom: 70px;
+        font-size: 5vw;
+    }
+
+    .hjk {
+        flex-direction: column;
+        align-items: center;
+        gap: 10vw;
+        margin-top: 9vw;
+    }
+
+    .pl {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+            width: 85%;
+        margin-top: 60px;
+    }
+
+    .tp {
+        font-size: 4.5vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .otop {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 8vw;
+    }
+
+    .plan {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .dein {
+        font-size: 18px;
+    }
+
+    .ttp {
+        font-size: 60vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cde, .de {
+        font-size: 5.5vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10vw;
+    }
+
+    .sd {
+        font-size: 6vw;
+    }
+
+    .ds {
+        font-size: 4.5vw
+    }
+
+    .spim {
+        height: 70%;
+        width: 70%;
+        margin-top: -16vw
+    }
+
+    .monh {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 6.5vw;
+    }
+
+    .cmh {
+        font-size: 6vw;
+        width: 55vw;
+        padding: 2.5vw;
+       /* Offset to center */
+    
+    }
+}
+/* Fade-In effect for the home section */
+
+
+/* Slide-In effect for features and services */
+
+
+/* Slide-up effect for heading text */
+.otop, .cde, .de {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effect for images */
+.spim {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spim:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for the Call Now button */
+.cmh {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cmh:hover {
+    background-color: #000;
+    transform: translateY(-5px);
+    color: #fff;
+}
+
+/* Smooth transition for the text sections */
+.cde, .de {
+    transition: all 0.5s ease;
+}
+
+
+.mh {
+    animation: fadeIn 2s ease-in-out, bounce 1s ease-in-out 2s, rotate 2s ease-in-out 3s, shake 1s ease-in-out 5s infinite;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .fm {
+    
+    animation: bounce 2s infinite;
+  }
+
+
+
+
+
+
+

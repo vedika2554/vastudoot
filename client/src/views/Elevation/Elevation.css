@@ -1,0 +1,459 @@
+.set-background {
+    position: absolute;
+    top: -82%;
+    left: 0;
+    width: 100%; /* Set the container width to 100% of its parent */
+    height: 100%;
+    z-index: -1; /* Behind the content */
+    overflow: hidden; /* Keep bubbles within the container */
+    margin-left: -40px; /* Optional: adjust left margin */
+  }
+  
+  
+  /* Bubbles */
+  .bubble {
+    position: absolute;
+    bottom: -40px;
+    width: 78px;
+    height: 78px;
+   opacity: 0.2;
+    border-radius: 50%;
+    
+    animation: moveUpDown 2s infinite ease-in-out;
+  }
+
+  .bubble:nth-child(odd) {
+    animation-delay: 0s; /* Stagger odd bubbles */
+  }
+
+  .bubble:nth-child(even) {
+    animation-delay: 1s; /* Stagger even bubbles */
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  .nbg{
+   
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%; /* Set the container width to 100% of its parent */
+    height: 100%;
+    z-index: -1; /* Behind the content */
+    overflow: hidden; /* Keep bubbles within the container */
+    margin-left: -40px; /* Optional: adjust left margin */
+    
+  }
+  .drop {
+    position: absolute;
+    top: -40px;
+    width: 78px;
+    height: 78px;
+   opacity: 0.2;
+    border-radius: 50%;
+    animation: moveUpDown 2s infinite ease-in-out;
+  }
+
+  .drop:nth-child(odd) {
+    animation-delay: 0s; /* Stagger odd bubbles */
+  }
+
+  .drop:nth-child(even) {
+    animation-delay: 1s; /* Stagger even bubbles */
+  }
+  .bubble:nth-child(1) {
+    left: 5%;
+    background: darkred; 
+    
+  }
+  
+  .bubble:nth-child(2) {
+    left: 10%;
+      background: darkorange; 
+  }
+  
+  .bubble:nth-child(3) {
+    background: darkred; 
+    left: 15%;
+    
+  }
+  
+  .bubble:nth-child(4) {
+    left: 20%;
+    background: darkorange; 
+  
+  }
+  
+  .bubble:nth-child(5) {
+    background: darkred; 
+    left: 25%;
+    
+  }
+  
+  .bubble:nth-child(6) {
+    background: darkorange; 
+    left: 30%;
+   
+  }
+  
+  .bubble:nth-child(7) {
+    background: darkred; 
+    left: 35%;
+    
+  }
+  
+  .bubble:nth-child(8) {
+    background: darkorange;  
+    left: 40%;
+    
+  }
+  
+  .bubble:nth-child(9) {
+    background: darkred; 
+    left: 45%;
+   
+  }
+  
+  .bubble:nth-child(10) {
+    left: 50%;
+    
+    background: darkorange; 
+  }
+  
+  .bubble:nth-child(11) {
+    background: darkred; 
+    left: 55%;
+    
+  }
+  
+  .bubble:nth-child(12) {
+    left: 60%;
+    background: darkorange; 
+  }
+  
+  .bubble:nth-child(13) {
+    background: darkred; 
+    left: 65%;
+  }
+  
+  .bubble:nth-child(14) {
+    left: 70%;
+    background: darkorange; 
+  }
+  
+  .bubble:nth-child(15) {
+    background: darkred; 
+    left: 75%;
+    
+  }
+  
+  .bubble:nth-child(16) {
+    background: darkorange; 
+  
+    left: 80%;
+    
+  }
+  
+  .bubble:nth-child(17) {
+    background: darkred; 
+    left: 85%;
+    
+  }
+  
+  .bubble:nth-child(18) {
+    background: darkorange; 
+  
+    left: 90%;
+    
+  }
+  
+  .bubble:nth-child(19) {
+    background: darkred; 
+    left: 95%;
+    
+  }
+
+
+  .drop:nth-child(1) {
+    left: 5%;
+    background: darkred; 
+    
+  }
+  
+  .drop:nth-child(2) {
+    left: 10%;
+      background: darkorange; 
+  }
+  
+  .drop:nth-child(3) {
+    background: darkred; 
+    left: 15%;
+    
+  }
+  
+  .drop:nth-child(4) {
+    left: 20%;
+    background: darkorange; 
+  
+  }
+  
+  .drop:nth-child(5) {
+    background: darkred; 
+    left: 25%;
+    
+  }
+  
+  .drop:nth-child(6) {
+    background: darkorange; 
+    left: 30%;
+   
+  }
+  
+  .drop:nth-child(7) {
+    background: darkred; 
+    left: 35%;
+    
+  }
+  
+  .drop:nth-child(8) {
+    background: darkorange;  
+    left: 40%;
+    
+  }
+  
+  .drop:nth-child(9) {
+    background: darkred; 
+    left: 45%;
+   
+  }
+  
+  .drop:nth-child(10) {
+    left: 50%;
+    
+    background: darkorange; 
+  }
+  
+  .drop:nth-child(11) {
+    background: darkred; 
+    left: 55%;
+    
+  }
+  
+  .drop:nth-child(12) {
+    left: 60%;
+    background: darkorange; 
+  }
+  
+  .drop:nth-child(13) {
+    background: darkred; 
+    left: 65%;
+  }
+  
+  .drop:nth-child(14) {
+    left: 70%;
+    background: darkorange; 
+  }
+  
+  .drop:nth-child(15) {
+    background: darkred; 
+    left: 75%;
+    
+  }
+  
+  .drop:nth-child(16) {
+    background: darkorange; 
+  
+    left: 80%;
+    
+  }
+  
+  .drop:nth-child(17) {
+    background: darkred; 
+    left: 85%;
+    
+  }
+  
+  .drop:nth-child(18) {
+    background: darkorange; 
+  
+    left: 90%;
+    
+  }
+  
+  .drop:nth-child(19) {
+    background: darkred; 
+    left: 95%;
+    
+  }
+  .zt{
+    font-size: 2.5em;
+    color: darkred;
+   margin-top: -20px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .zd{
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .xvb{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+    margin-top: -80px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4d2600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ec{
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+ width: 273px;
+  box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  color: #000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 40px;
+}
+.ecg
+{
+  display: flex;
+      flex-wrap: wrap;
+      gap:1rem;
+      justify-content: space-evenly;
+  
+}
+.ec p{
+  
+  color: darkred;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ec h3{
+  font-size: 20px;
+}
+
+.epgc{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.dotd{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: darkorange;
+}
+.epc{
+  background: transparent;
+  margin-top: -40px;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  width: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.eltt{
+  color: darkred;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.eleimg{
+  width: 100%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bubble{
+    width: 5vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: 16vw;
+  }
+  .drop{
+    width: 5vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: 16vw;
+    
+  }
+  .zt{
+    margin-top: -5vw;
+    font-size: 30px;
+  }
+  .zd{
+    font-size: 18px;
+  }
+  .set-background{
+  margin-top: 19vw;
+  }
+  .xvb{
+    font-size: 9vw;
+  }
+  .dotd{
+    font-size: 5.5vw;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: justify;
+  }
+  .nbg{
+    margin-top:16vw;
+  }
+  .ecg{
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .ec{
+    width: 100%;
+  }
+  .epgc{
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap:5rem;
+  }
+  .epc{
+    width: 100%;
+   padding: 1rem;
+  }
+ 
+}

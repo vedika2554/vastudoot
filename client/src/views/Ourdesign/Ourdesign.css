@@ -1,0 +1,149 @@
+.hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.kop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -90px;
+    margin-bottom: 30px;
+}
+.odpdd{
+    text-align:justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: darkred;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.apl{
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    background-color: rgba(255, 245, 230,0.11);
+    border: 0.5px solid #4a2a00;
+    border-radius: 15px;
+    width: 350px;
+    margin-top:110px;
+    text-align: center;
+}
+
+
+    .lot{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        margin-top: -50px;
+    }
+    .atm{
+        color: #4a2a00;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 23px;
+        margin-bottom: 30px;
+    
+    }
+    .bhk{
+        display: block;
+        margin: auto;
+        width: 80%;
+       height: 50%;
+    }
+    .tata{
+        display: block;
+        text-decoration: none;
+        font-size: 23px;
+        padding: 10px;
+        width: 160px;
+        border-radius: 50px;
+        background-color: darkorange;
+        color: #ffffff;
+        margin: auto;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: -90px;
+        margin-top: 30px;
+        border: none;
+    }
+    .tata:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    .ink{
+        text-decoration: none;
+        color: #fff;
+        border: none;
+    }
+    .ink:hover{
+        text-decoration: none;
+        color: #fff;
+        border: none;
+    }
+    .cide{
+        text-align: center;
+        color: darkred;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        /* Adjust .kop (flex container) for smaller screens */
+        .kop {
+            flex-direction: column; /* Stack items vertically */
+            margin-top: 40px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .odpdd {
+            font-size: 5vw; /* Reduce font size for smaller screens */
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    
+        .apl {
+            width: 85%; /* Make card width responsive */
+            margin-top: 70px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 110px;
+        }
+    
+        .lot {
+            flex-direction: column; /* Stack items vertically on small screens */
+            margin-top: 0;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .atm {
+            font-size: 18px; /* Adjust font size for small screens */
+        }
+    
+       .bhk{
+        display: block;
+        width: 80%;
+        height:200px
+       }
+    
+        .tata {
+            width: 150px; /* Adjust width of button */
+            font-size: 20px; /* Adjust font size */
+            padding: 8px; /* Adjust padding */
+        }
+    
+        .cide {
+            font-size: 24px; /* Adjust font size for better readability on small screens */
+            margin-top: 40px;
+        }
+    }

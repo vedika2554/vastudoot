@@ -1,0 +1,138 @@
+.ol{
+    text-align: center;
+    color:#4a2a00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.pol{
+    text-align: center;
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.nmp{
+    color:#4a2a00;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.mop{
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 50px;
+    background-color:darkorange;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.mop:hover{
+  background-color:#000;
+    color: #ffffff;
+}
+.lo-ca{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+}
+.oper{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(255, 245, 230,0.11);
+    border: 0.5px solid #4a2a00;
+    border-radius: 15px;
+       margin-left: 30px;
+    width: 300px;
+
+}
+.abdes{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    color:darkred;
+}
+.led{
+    margin-top: 50px;
+}
+.vty{
+    display: flex;
+    justify-content: space-evenly;   
+}
+.abimg{
+    height:700px;
+    margin-top: 60px;
+    margin-right:10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ol {
+      font-size: 18px; /* Reduce font size */
+      margin-top: 10px; /* Adjust margins */
+      margin-bottom: 10px;
+    }
+  
+    .pol {
+      font-size: 18px; /* Reduce font size */
+      margin-top: 20px; /* Adjust margins */
+      margin-bottom: 20px;
+    }
+  
+    .nmp {
+      font-size: 24px; /* Adjust font size */
+      margin-bottom: 30px; /* Reduce margin */
+    }
+  
+    .mop {
+      font-size: 20px; /* Adjust button font size */
+      width: 180px; /* Adjust button width */
+      margin-bottom: 30px; /* Reduce bottom margin */
+    }
+  
+    .lo-ca {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Remove fixed height */
+      margin-top: 20px; /* Adjust top margin */
+    }
+  
+    .oper {
+      width: 80%; /* Adjust width for small screens */
+      margin-left: auto; 
+      margin-right: auto;/* Center align */
+      margin-bottom: 20px; /* Add spacing between items */
+    }
+  
+    .abdes {
+      font-size: 5vw; /* Reduce font size */
+      margin-left: 30px; /* Adjust left margin */
+      margin-right: 30px; /* Adjust right margin */
+      text-align: justify;
+    }
+  
+    .led {
+      margin-top: 30px; /* Adjust top margin */
+    }
+  
+    .vty {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+    }
+  
+    .abimg {
+      height: auto; /* Adjust height for responsiveness */
+    width: 80%; /* Make the image scale to fit */
+      margin-right: 0; /* Center align the image */
+    }
+  }
+  

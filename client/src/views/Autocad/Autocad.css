@@ -1,0 +1,336 @@
+/* App.css */
+
+/* General Styling */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Hero Section */
+.herosp {
+    
+    text-align: center;
+   background: transparent;
+   
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    border-radius: 40px;
+   
+  
+  }
+  
+ 
+  
+  
+  /* Hero Heading */
+  .herosp h1 {
+    font-size: 2.8em;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease-out, typewriter 3s steps(40) ,infinite  floatUp 1.2s ease-out;
+    
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-35px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Hero Subtitle */
+  .herosp p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    animation: fadeInUp 1.5s ease-out, pulse 1.5s ease-out infinite;
+  
+    color: #000;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+  
+  /* Hero Image */
+  .herosp-image {
+    max-width: 400px;
+    height: 300px;
+   margin: 60px;
+    margin-top: 50px;
+    border-radius: 25px;
+    transition: transform 0.5s ease-in-out, filter 0.3s ease;
+    opacity: 0.85;
+    mix-blend-mode: darken;
+  }
+  
+  
+  
+  /* Box Shadow on Hover */
+  .hero:hover {
+    box-shadow: 0 50px 120px rgba(0, 0, 0, 0.2);
+  }
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  border-radius: 20px;
+ margin-top: -100px;
+  transition: box-shadow 0.3s ease;
+  
+}
+
+
+
+.about h2 {
+  font-size: 2.8em;
+  text-align: center;
+  
+  color: #4a2a00;
+  margin-bottom: 30px;
+}
+.about p{
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.about-image:hover {
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: -100px;
+
+}
+
+.features h2 {
+  font-size: 2.8em;
+  color: #4a2a00;
+  margin-bottom: 30px;
+  
+}
+
+.feature-item {
+  display: inline-block;
+  width: 450px;
+  margin: 15px;
+  padding: 30px;
+  
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: justify;
+  font-size: 16.5px;
+  color: darkred;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+}
+
+.feature-item h3 {
+  font-size: 1.8em;
+  color: #000;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.feature-image {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-image:hover {
+  transform: scale(1.05);
+}
+
+
+/* Neumorphism Effect */
+.neumorphism {
+  background: #e0e0e0;
+  box-shadow: 9px 9px 16px #b8b8b8, -9px -9px 16px #ffffff;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.neumorphism:hover {
+  box-shadow: 10px 10px 20px #b8b8b8, -10px -10px 20px #ffffff;
+}
+/* Project Section */
+.projectslp {
+    padding: 60px 20px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    margin-top: -90px;
+    text-align: center;
+  }
+  
+  .projectslp h2 {
+    font-size: 2.8em;
+    color: #4a2a00;
+    margin-bottom: 35px;
+  }
+  
+  .projectlp-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1430px;
+    padding: 0 20px;
+  }
+  
+  .projectlp-item {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .projectlp-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+  }
+  
+  .projectlp-item h3 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: color 0.3s ease;
+  }
+  
+  .projectlp-item p {
+    font-size: 1.1em;
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    opacity: 0.85;
+  }
+  
+  .projectlp-item .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .herosp h1{
+      font-size: 7vw;
+      margin-left: -5px;
+      margin-right: -5px;
+      letter-spacing: 0px;
+    }
+    .herosp p{
+      font-size: 5.5vw;
+      margin-left: -5px;
+      margin-right: -5px;
+      text-align: justify;
+    }
+    .herosp-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 60vw;
+    }
+    .about h2{
+      font-size: 9vw;
+      
+    }
+    .about p{
+      font-size: 5.5vw;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: justify;
+    }
+    .features h2{
+      font-size: 9vw;
+
+    }
+    .features h3{
+      font-size: 8vw;
+    }
+    .projectlp-item h3{
+      font-size: 8vw;
+    }
+    .feature-item{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 40px;
+    }
+    .projectslp h2{
+      font-size: 9vw;
+margin-top: -40px;
+    }
+    .projectlp-container{
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+      margin-left: -19px;
+margin-right: -19px;
+    }
+  }

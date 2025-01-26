@@ -1,0 +1,318 @@
+.interior-he {
+    position: relative;
+    padding: 40px 20px;
+    overflow: hidden;
+    color: #4d2600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: -100px;
+  }
+.joi{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Seamless grid */
+  width: 100%;
+ /* Subtle base color */
+  padding: 10px;
+  position: relative;
+  z-index: 1; /* Jali pattern stays below text */
+  margin-top: -40px;
+}
+.je{
+  width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #ff9a00, #cc7500); /* Warm orange */
+    clip-path: polygon(
+      50% 0%, 80% 20%, 100% 50%, 
+      80% 80%, 50% 100%, 20% 80%, 
+      0% 50%, 20% 20%
+    );
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.6),
+                inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+                opacity: 0.26;
+                animation: morph 8s infinite ease-in-out; 
+}
+
+
+
+
+  
+  .interior-jali {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Seamless grid */
+    width: 100%;
+   /* Subtle base color */
+    padding: 10px;
+    position: relative;
+    z-index: 1; /* Jali pattern stays below text */
+    margin-top: -40px;
+  }
+  
+  .jali-element {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #ff9a00, #cc7500); /* Warm orange */
+    clip-path: polygon(
+      50% 0%, 80% 20%, 100% 50%, 
+      80% 80%, 50% 100%, 20% 80%, 
+      0% 50%, 20% 20%
+    );
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.6),
+                inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+                opacity: 0.26;
+                animation: morph 8s infinite ease-in-out; 
+  }
+  
+  .interior-text {
+    position: absolute;
+    top: 45%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Text stays above Jali */
+    color: darkred; /* Orange shade for text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  }
+  
+  .interior-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .interior-text p {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  
+  @keyframes morph {
+   
+    0% {
+        
+
+      clip-path: path(
+        "M30 0 C40 15, 60 15, 60 30 C60 45, 40 45, 30 60 C20 45, 0 45, 0 30 C0 15, 20 15, 30 0"
+      );
+    }
+    25% {
+
+   
+
+      clip-path: path(
+        "M30 0 L57 15 L57 45 L30 60 L3 45 L3 15 Z"
+      );
+ 
+
+
+    }
+    
+    50% {
+  
+    clip-path: path("M30 0 C40 15, 60 15, 60 25 C60 35, 40 35, 30 60 C20 35, 0 35, 0 25 C0 15, 20 15, 30 0");
+    }
+    75% {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); 
+    }
+    
+    100%{
+  
+    
+      clip-path: path("M30 0 L45 15 L50 25 L60 30 L50 35 L45 45 L30 60 L15 45 L10 35 L0 30 L10 25 L15 15 Z");
+      }
+  }
+
+
+
+  .interior-contr {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+
+  
+ 
+  
+
+  .interior-ab p {
+    font-size: 18px;
+    margin-top: -20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkorange;
+  }
+  
+  .interior-services {
+    background-color: transparent;
+    margin-top: -150px;
+  }
+  
+  .interior-service-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  
+  .interior-service-card {
+    background-color: transparent;
+    text-align: center;
+    width: 40%;
+   
+margin-top: -10px;   
+ border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+   
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .interior-service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    
+  }
+  .interior-service-card p{
+    color: darkred;
+  }
+  
+  
+  .interior-portfolio-gallery {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    
+  }
+  .ipg{
+    background-color: transparent;
+    text-align: center;
+    width: 40%;
+   
+ border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+   
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .ipg p{
+    color: darkred;
+    text-align: center;
+  }
+  .interior-portfolio-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(19, 1, 1, 0.6);
+  }
+  
+  
+  
+  .interior-contact {
+    text-align: center;
+  }
+  
+  .interior-cta-button {
+    background-color: darkorange;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  
+  }
+  
+  .interior-cta-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .interior-portfolio h2 {
+    background-color: transparent;
+    margin-top: -105px;
+  }
+  .interior-contact h2 {
+    background-color: transparent;
+    margin-top: -105px;
+  }
+  .iais{
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+   .interior-jali{
+    display: none;
+   }
+   .joi{
+    grid-template-columns: repeat(auto-fit, minmax(58px, 1fr)); /* Seamless grid */
+    width: 100%;
+    place-items: center;
+     }
+     .interior-text h1{
+      font-size: 10vw;
+      margin-left: -18vw;
+      margin-right: -18vw;
+      text-align: center;
+     }
+     .interior-text p{
+      font-size: 5.3vw;
+     text-align:justify;
+     }
+   
+    .interior-contr h2{
+      font-size: 9vw;
+    }
+    .interior-contr p{
+      text-align: justify;
+    }
+  .interior-service-cards{
+    flex-direction: column;
+    margin-left: -15px;
+margin-right: -15px;
+  }
+  .interior-service-card{
+    width: 100%;
+  }
+  .interior-portfolio-gallery {
+flex-direction: column;
+margin-left: -15px;
+margin-right: -15px;
+  }
+  .ipg{
+    width: 100%;
+   
+  }
+  .ipg p{
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 800px){
+    
+  .interior-jali{
+    display: none;
+   }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1920px)
+{
+  .joi{
+    display: none;
+  }
+}
