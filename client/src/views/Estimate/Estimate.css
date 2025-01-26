@@ -168,6 +168,10 @@
     .eoc h2 {
       font-size: 5.5vw;
     }
+    .eoc p
+    {
+      font-size: 5vw;
+    }
     @keyframes slide {
       0% {
         transform: translateX(5%); /* Start from original position */

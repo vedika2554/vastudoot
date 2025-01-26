@@ -154,6 +154,12 @@ gap: 15vw;
     margin-bottom: 10vw;
    
   }
+  .rcc-card h3{
+    font-size: 7vw;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+  }
   .rcc-card-container
   {
     padding: 1px;

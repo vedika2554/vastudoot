@@ -1,6 +1,4 @@
-* {
-  font-weight: bold;
-}
+
 .mh{
     display: block;
    margin-left: auto;
@@ -157,6 +155,9 @@
   height: 99vw;
     
   }   
+  * {
+    font-weight: bold;
+  }
     
 .pds{
   font-size: 4.5vw;

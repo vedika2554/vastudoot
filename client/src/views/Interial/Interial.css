@@ -259,7 +259,7 @@ margin-top: -10px;
     display: none;
    }
    .joi{
-    grid-template-columns: repeat(auto-fit, minmax(58px, 1fr)); /* Seamless grid */
+    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); /* Seamless grid */
     width: 100%;
     place-items: center;
      }
@@ -270,7 +270,7 @@ margin-top: -10px;
       text-align: center;
      }
      .interior-text p{
-      font-size: 5.3vw;
+      font-size: 5.1vw;
      text-align:justify;
      }
    
@@ -299,7 +299,9 @@ margin-right: -15px;
   }
   .ipg p{
     text-align: center;
+    font-size: 6vw;
   }
+ 
 }
 
 

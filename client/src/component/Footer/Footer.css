@@ -168,7 +168,9 @@ text-align: center;
 margin-top: 15vw;
 margin-bottom: 15vw;
 font-size: 7vw;
+
     }
+ 
     .footer-links
     {
       text-align: center;
@@ -181,6 +183,7 @@ font-size: 7vw;
     .footer-contact-link{
       text-align: center;
       font-size: 6vw;
+      
     }
     .footer-contact-section
     {
@@ -191,5 +194,12 @@ font-size: 7vw;
       text-align: center;
       font-size: 5vw;
 
+    }
+    .props
+    {
+      font-weight: bold;
+    }
+    .crop{
+      font-weight: bold;
     }
   }
