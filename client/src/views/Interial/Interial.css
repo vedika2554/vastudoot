@@ -259,7 +259,7 @@ margin-top: -10px;
     display: none;
    }
    .joi{
-    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); /* Seamless grid */
+    grid-template-columns: repeat(auto-fit, minmax(53px, 1fr)); /* Seamless grid */
     width: 100%;
     place-items: center;
      }
@@ -271,11 +271,13 @@ margin-top: -10px;
      }
      .interior-text p{
       font-size: 5.1vw;
-     text-align:justify;
+     text-align:center;
      }
    
     .interior-contr h2{
       font-size: 9vw;
+      margin-left: -30px;
+      margin-right: -30px;
     }
     .interior-contr p{
       text-align: justify;
