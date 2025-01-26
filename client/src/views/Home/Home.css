@@ -1,4 +1,6 @@
-
+* {
+  font-weight: bold;
+}
 .mh{
     display: block;
    margin-left: auto;
@@ -149,8 +151,9 @@
     
 @media (min-width: 320px) and (max-width: 480px) {
   .mh {display: block;
-   
-  width:95%;
+   margin-left: auto;
+   margin-right: auto;
+  width:90%;
   height: 99vw;
     
   }   

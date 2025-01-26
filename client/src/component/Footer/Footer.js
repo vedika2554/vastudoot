@@ -61,8 +61,8 @@ function Footer() {
           <Col lg={2} md={6} className="footer-contact-section">
             <h5 className="footer-section-title">Contact Us</h5>
             <p><strong>Phone:</strong> <a href="tel:+919404692698" className="footer-contact-link">+91 94046 92698</a></p>
-            <p><strong>Email:</strong> <a href="mailto:info@vastudoot.com" className="footer-contact-link">info@vastudoot.com</a></p>
-            <p><strong>Address:</strong> XYZ Street, Pune, India</p>
+            <p><strong>Email:</strong> <a href="mailto:Swapneshpraut@gmail.com" className="footer-contact-link">Swapneshpraut@gmail.com</a></p>
+            <p><strong>Address:</strong>Medshingi Sangola  India</p>
           </Col>
         </Row>
 
