@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <Container >
         <Row className="footer-top">
-          <Col lg={4} md={6} className="footer-logo-section">
+          <Col lg={4} md={6}className="footer-logo-section">
             <div className="footer-logo-container">
               <img src="https://i.imgur.com/XpDrwXR.png" className="footer-logo" alt="Vastudoot Logo" />
               <span className="footer-brand-name1">वास्तु</span>

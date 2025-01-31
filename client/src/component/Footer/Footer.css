@@ -203,3 +203,89 @@ font-size: 7vw;
       font-weight: bold;
     }
   }
+
+
+
+
+
+
+
+
+
+  @media (min-width: 481px) and (max-width: 768px) {
+   .footer{
+   max-width:100%;
+   }
+    .footer-logo{
+      width: 16vw;
+     
+    }
+    .footer-brand-name1
+    {
+      font-size: 6.5vw;
+    }
+    .footer-brand-name2
+    {
+      font-size: 6.5vw;
+    }
+    .footer-logo-container
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer-description{
+      font-size: 5vw;
+      text-align: center;
+      max-width: 100%;
+      margin-left: 1vw;
+      margin-right: 1vw;
+    }
+    .footer-section-title
+    {
+text-align: center;
+margin-top: 15vw;
+margin-bottom: 15vw;
+font-size: 6vw;
+
+    }
+ 
+    .footer-links
+    {
+      text-align: center;
+      
+    }
+    .footer-link
+    {
+      font-size: 5vw;
+    }
+    .footer-contact-link{
+      text-align: center;
+      font-size: 6vw;
+      
+    }
+    .footer-contact-section
+    {
+      text-align: center;
+    }
+    .footer-rights
+    {
+      text-align: center;
+      font-size: 5vw;
+
+    }
+    .props
+    {
+      
+      font-size: 5vw;
+      font-weight: bold;
+    }
+    .crop{
+      font-size: 5vw;
+      font-weight: bold;
+    }
+  }
+
+
+
+  

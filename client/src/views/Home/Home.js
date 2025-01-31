@@ -22,7 +22,7 @@ function Home(){
     <div className="hjk">
         <div className="pl">
             <img src={"https://i.imgur.com/XoK94Mf.png"} className="plan"/>
-        <h1 className="tp">वास्तुशास्त्र नुसार प्लॅन काधुन मिळेल</h1></div>
+        <h1 className="tp">वास्तुशास्त्रानुसार प्लॅन काडून मिळेल </h1></div>
         <div className="pl">
         <img src={"https://i.imgur.com/zjWRMsE.png"} className="plan"/>
         <h1 className="tp">प्लॅन वास्तुशास्त्र नुसार चेक करून मिळेल</h1>

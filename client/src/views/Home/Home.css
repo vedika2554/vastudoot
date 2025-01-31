@@ -373,3 +373,130 @@
 
 
 
+
+  @media screen and (min-width:481px ) and (max-width:699px){
+    .mh {display: block;
+        margin-left: auto;
+        margin-right: auto;
+       width:90%;
+       height: 99vw;
+         
+       }   
+       * {
+         font-weight: bold;
+       }
+         
+     .pds{
+       font-size: 4.5vw;
+     }
+         .fm {
+             top: 7vh;
+             padding-bottom: 40px;
+             margin-bottom: 70px;
+             font-size: 5vw;
+         }
+     
+         .hjk {
+             flex-direction: column;
+             align-items: center;
+             gap: 10vw;
+             margin-top: 9vw;
+         }
+     
+         .pl {
+             display: block; 
+             margin-left: auto;
+             margin-right: auto;
+             justify-content: center;
+                 width: 85%;
+             margin-top: 60px;
+         }
+     
+         .tp {
+             font-size: 4.5vw;
+             margin-top: 15px;
+             margin-bottom: 15px;
+         }
+     
+         .otop {
+             margin-top: 5px;
+             margin-bottom: 30px;
+             font-size: 8vw;
+         }
+     
+         .plan {
+             width: 90%;
+             margin-top: 15px;
+         }
+     
+         .info {
+             margin-top: 20px;
+             margin-bottom: 20px;
+             font-size: 18px;
+         }
+     
+         .dein {
+             font-size: 18px;
+         }
+     
+         .ttp {
+             font-size: 60vw;
+             margin-top: 15px;
+             margin-bottom: 15px;
+         }
+     
+         .cde, .de {
+             font-size: 5.5vw;
+             margin-left: 20px;
+             margin-right: 20px;
+             margin-bottom: 10vw;
+         }
+     
+         .sd {
+             font-size: 6vw;
+         }
+     
+         .ds {
+             font-size: 4.5vw
+         }
+     
+         .spim {
+             height: 70%;
+             width: 70%;
+             margin-top: -16vw
+         }
+     
+         .monh {
+             margin-top: 50px;
+             margin-bottom: 20px;
+             font-size: 6.5vw;
+         }
+     
+         .cmh {
+             font-size: 6vw;
+             width: 55vw;
+             padding: 2.5vw;
+            /* Offset to center */
+         
+         }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

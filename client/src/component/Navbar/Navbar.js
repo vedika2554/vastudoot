@@ -5,14 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.css'
 function BasicExample() {
-
+  const logoUrl = 'https://i.imgur.com/XpDrwXR.png'
   return (
     <div className='cd'>
+      
     <Navbar expand="lg" id="ag">
-         <><img src={'https://i.imgur.com/XpDrwXR.png'} className='logo'/>
-      </>
+        
       <Container className='con'>
-        <Navbar.Brand href="#home"><span className='navbrand1 '>वास्तु</span>&nbsp;  <span className='navbrand2'>Doot</span></Navbar.Brand>
+        
+        <Navbar.Brand href="#home"> <img src={logoUrl} className='logo' /><span className='navbrand1'>वास्तु</span>&nbsp;  <span className='navbrand2'>Doot</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
