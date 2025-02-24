@@ -416,11 +416,13 @@
     
   }
   .zt{
-    margin-top: -5vw;
+    margin-top: 5vw;
     font-size: 30px;
   }
   .zd{
     font-size: 18px;
+    position: relative;
+  bottom: 1vw;
   }
   .set-background{
   margin-top: 19vw;

@@ -17,8 +17,8 @@ const Autocad = () => {
         <p>
           At Vastudoot Construction, we utilize cutting-edge AutoCAD software to design, plan, and execute construction projects with precision and efficiency.
         </p>
-        <img src="https://indepthresearch.org/blog/wp-content/uploads/2023/06/AutoCAD.jpg" alt="" className="herosp-image" />
-        <img src="https://blog.coohom.com/wp-content/uploads/2023/01/large.png" alt="" className="herosp-image" />
+        <img src="https://i.imgur.com/ZZFxKCG.jpeg" alt="" className="herosp-image" />
+        <img src="https://i.imgur.com/REEyp3H.png" alt="" className="herosp-image" />
       </section>
 
       {/* About Section */}
