@@ -168,6 +168,9 @@ app.delete('/data/:id', async (req, res)=>{
 
 
 
+app.get('/', (req, res) => {
+  res.send('✅ Vastudoot backend is running successfully.');
+});
 
 
 
