@@ -3,8 +3,11 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-const __dirname = path.resolve();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 import mongoose from 'mongoose';
 import Data from './models/Data.js'
@@ -155,14 +158,11 @@ app.delete('/data/:id', async (req, res)=>{
 
 
 
-    if (process.env.NODE_ENV === 'production') {
-        app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
-      
-        app.get('*', (req, res) => {
-          res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'))
-        });
-      }
 
+
+const buildPath = path.join(__dirname, '../client/build');
+
+app.use(express.static(buildPath));
 
 
 
@@ -172,6 +172,9 @@ app.get('/', (req, res) => {
   res.send('✅ Vastudoot backend is running successfully.');
 });
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(buildPath, 'index.html'));
+});
 
 
 const PORT = 5000;
