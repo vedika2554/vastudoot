@@ -38,16 +38,6 @@ function BasicExample() {
             <NavDropdown.Item href="/supervision">Supervision</NavDropdown.Item>
             <NavDropdown.Item href="/Interior">Interial Design</NavDropdown.Item>
             </NavDropdown>
-
-            
-
-
-
-           
-
-
-
-
             <Nav.Link href="/ourdesign"><span className='navsub'>Our design</span></Nav.Link>
             <Nav.Link href="/about"><span className='navsub'>About</span></Nav.Link>
          
