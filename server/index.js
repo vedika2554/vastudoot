@@ -168,9 +168,21 @@ app.use(express.static(buildPath));
 
 
 
+app.use(express.static(buildPath));
+
+app.get("/robots.txt", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/public/robots.txt"));
+});
+
+app.get("/sitemap.xml", (req, res) => {
+  res.header("Content-Type", "application/xml");
+  res.sendFile(path.join(__dirname, "../client/public/sitemap.xml"));
+});
+
 app.get('/', (req, res) => {
   res.send('✅ Vastudoot backend is running successfully.');
 });
+
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(buildPath, 'index.html'));
