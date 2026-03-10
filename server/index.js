@@ -171,12 +171,12 @@ app.use(express.static(buildPath));
 app.use(express.static(buildPath));
 
 app.get("/robots.txt", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/public/robots.txt"));
+  res.sendFile(path.join(__dirname, "../client/build/robots.txt"));
 });
 
 app.get("/sitemap.xml", (req, res) => {
   res.header("Content-Type", "application/xml");
-  res.sendFile(path.join(__dirname, "../client/public/sitemap.xml"));
+  res.sendFile(path.join(__dirname, "../client/build/sitemap.xml"));
 });
 
 app.get('/', (req, res) => {
